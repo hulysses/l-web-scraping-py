@@ -1,0 +1,150 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw-jetbrains-plugin",
+  "elements": [
+    {
+      "id": "7GzfS9Vm0NsQfm1jo6grg",
+      "type": "text",
+      "x": -318.83333333333337,
+      "y": 160.33333333333337,
+      "width": 1502.4267578125,
+      "height": 896.6666666666663,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1981273357,
+      "version": 126,
+      "versionNonce": 644838122,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "URkg8FqmLDsRDlJPwCh4O",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1740440104676,
+      "link": null,
+      "locked": false,
+      "text": "Bibliotecas\n1. Beautiful Soup\n2. Selenium\n3. Octoparse ",
+      "fontSize": 179.33333333333326,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 830,
+      "containerId": null,
+      "originalText": "Bibliotecas\n1. Beautiful Soup\n2. Selenium\n3. Octoparse ",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "nd1Z4BDHkVTdSIifnVfDa",
+      "type": "text",
+      "x": 2089.5,
+      "y": -427.0000000000001,
+      "width": 2980.23046875,
+      "height": 601.7953206864315,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1299663523,
+      "version": 128,
+      "versionNonce": 1976431594,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "URkg8FqmLDsRDlJPwCh4O",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1740440101709,
+      "link": null,
+      "locked": false,
+      "text": "pip install beautifulsoup4\n",
+      "fontSize": 240.7181282745726,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 513,
+      "containerId": null,
+      "originalText": "pip install beautifulsoup4\n",
+      "lineHeight": 1.25
+    },
+    {
+      "type": "arrow",
+      "version": 534,
+      "versionNonce": 1049986474,
+      "isDeleted": false,
+      "id": "URkg8FqmLDsRDlJPwCh4O",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 1208.8440568377616,
+      "y": -147.8320616656139,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 854.4471931155134,
+      "height": 658.7583427231066,
+      "seed": 1690044022,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "updated": 1740440104676,
+      "link": null,
+      "locked": false,
+      "startBinding": {
+        "elementId": "7GzfS9Vm0NsQfm1jo6grg",
+        "focus": 0.7264930032107287,
+        "gap": 25.250632358595112
+      },
+      "endBinding": {
+        "elementId": "nd1Z4BDHkVTdSIifnVfDa",
+        "focus": 0.5434482615978184,
+        "gap": 26.208750046725072
+      },
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "points": [
+        [
+          0,
+          599.4169862674853
+        ],
+        [
+          282.92949125850015,
+          7.354715078240247
+        ],
+        [
+          854.4471931155134,
+          -59.341356455621224
+        ]
+      ]
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
