@@ -63,8 +63,8 @@
       "frameId": null,
       "roundness": null,
       "seed": 1299663523,
-      "version": 128,
-      "versionNonce": 1976431594,
+      "version": 129,
+      "versionNonce": 761665035,
       "isDeleted": false,
       "boundElements": [
         {
@@ -72,7 +72,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1740440101709,
+      "updated": 1740508478615,
       "link": null,
       "locked": false,
       "text": "pip install beautifulsoup4\n",
@@ -80,7 +80,7 @@
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 513,
+      "baseline": 512,
       "containerId": null,
       "originalText": "pip install beautifulsoup4\n",
       "lineHeight": 1.25
