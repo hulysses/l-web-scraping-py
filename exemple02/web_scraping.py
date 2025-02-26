@@ -11,7 +11,7 @@ if page.status_code == 200:
 
     # Cria um objeto BeautifulSoup com o conteudo da pagina
     soup = BeautifulSoup(response, 'html.parser')
-    news_title = soup.find_all('h2', {'class': 'post__title'})
+    news_title = soup.find_all('h2', {'models': 'post__title'})
 
     # Exibe o titulo de cada noticia encontrada
     for title in news_title:
