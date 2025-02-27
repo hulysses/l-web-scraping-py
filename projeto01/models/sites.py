@@ -34,7 +34,27 @@ class Site:
 
             self.news = news_dict_globo
 
+        if self.site.lower() == 'cnn':
+            url = 'https://www.cnnbrasil.com.br/'
+            browsers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
+            }
+            page = requests.get(url, headers=browsers)
+            soup = BeautifulSoup(page.content, 'html.parser')
 
-self = Site('globo')
+            noticias = soup.find_all('a')
+            tg_class1 = 'block__news__title'
+
+            news_dict_cnn = {}
+
+            for noticia in noticias:
+                if noticia.h3 != None:
+                    if tg_class1 in noticia.h3.get('class'):
+                        news_dict_cnn[noticia.h3.text] = noticia.get('href')
+
+            self.news = news_dict_cnn
+
+
+self = Site('cnn')
 self.update_news()
 print(self.news)
